@@ -3,10 +3,13 @@ package dio;
 public class ResultadoEscolar {
     public static void main(String[] args) {
         //Estrutura condicional composta.
-        int nota = 6;
+        int nota = 10;
 
-        if(nota >= 7) {
+        if(nota >= 7)
             System.out.println("Aprovado");
-        } else System.out.println("Reprovado");
+         else if (nota >= 5 && nota < 7)
+            System.out.println("Recuperação");
+
+            else System.out.println("Reprovado");
     }
 }

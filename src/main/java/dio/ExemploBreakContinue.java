@@ -7,7 +7,7 @@ public class ExemploBreakContinue {
         for(int numero = 1; numero <= 5; numero++) {
             if(numero == 3){
                 break; // Assim que a condição for verdadeira, para a execução assim que numero for igual a 3
-            } 
+            }
 
             System.out.println(numero); // Vai imprimir apenas até o numero 2
         }
